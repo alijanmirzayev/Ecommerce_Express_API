@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce_express_api",
+  "version": "1.0.0",
+  "description": "This is RestFull API for eCommerce Mobile App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alijan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mongoose": "^7.2.2"
+  }
+}
