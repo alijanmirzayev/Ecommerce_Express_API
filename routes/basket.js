@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { Basket } from '../controllers/basket';
+import { Basket } from '../controllers/basket.js';
 
 const r = Router();
 
