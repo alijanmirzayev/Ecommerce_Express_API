@@ -9,7 +9,7 @@ export const Product = {
             console.log('Product.add', error)
         }
     },
-    getProductByCategoryId: async (req, res) => {
+    getAllProductByCategoryId: async (req, res) => {
         try {
             const { categoryId } = req.params
             const data = await productModel.find({categoryId: categoryId})

@@ -4,7 +4,7 @@ import { Product } from '../controllers/product.js';
 const r = Router();
 
 // GET
-r.get('/:categoryId', Product.getProductByCategoryId);
+r.get('/:categoryId', Product.getAllProductByCategoryId);
 
 // POST
 r.post('/', Product.add);
