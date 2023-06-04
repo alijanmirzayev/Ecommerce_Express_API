@@ -18,7 +18,8 @@ const addressSchema = new Schema({
         required: true
     }
 }, {
-    versionKey: false
+    versionKey: false,
+    _id: false
 });
 
 const userSchema = new Schema({
