@@ -1,4 +1,4 @@
-import { Schema } from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
 const basketSchema = new Schema({
     quantity: {
@@ -9,7 +9,12 @@ const basketSchema = new Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'ecommerce-product',
         required: true
-    }
+    },
+    userId: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'ecommerce-user',
+        required: true
+    },
 })
 
 export const basketModel = model('ecommerce-basket', basketSchema)
