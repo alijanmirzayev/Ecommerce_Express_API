@@ -13,5 +13,5 @@ This backend service for eCommerce React Native app: https://github.com/alijanmi
 - Basket (GET_BYUSERID, ADD, INCREASE, DECREASE, DELETE)
 
 Run the app with the following command:
-1 - npm i
-2 - node index.js
+- 1 npm i
+- 2 node index.js
